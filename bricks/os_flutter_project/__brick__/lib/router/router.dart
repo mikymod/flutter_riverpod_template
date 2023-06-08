@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
-import 'package:os_test/sample_feature/sample_item_list_view.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+import 'package:{{project_name}}/sample_feature/sample_item_list_view.dart';
 
 part 'router.g.dart';
 
