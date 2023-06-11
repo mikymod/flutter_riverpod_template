@@ -17,7 +17,7 @@ Future<void> run(HookContext context) async {
   final buildRunnerProgress = context.logger.progress('Generating code...');
   final buildRunnerResult = await Process.run(
     'dart',
-    ['run', 'build_runner', 'build'],
+    ['run', 'build_runner', 'build', '-d'],
     runInShell: true,
   );
 

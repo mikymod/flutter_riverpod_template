@@ -1,5 +1,5 @@
-import 'package:os_flutter_project/app/app.dart';
-import 'package:os_flutter_project/bootstrap.dart';
+import 'package:{{project_name}}/app/app.dart';
+import 'package:{{project_name}}/bootstrap.dart';
 
 void main() {
   bootstrap(() => const App());

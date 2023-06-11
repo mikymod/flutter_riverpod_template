@@ -1,5 +1,5 @@
-import 'package:os_flutter_project/data/the_one_api/the_one_api.dart';
-import 'package:os_flutter_project/features/wiki/api_repository.dart';
+import 'package:{{project_name}}/data/the_one_api/the_one_api.dart';
+import 'package:{{project_name}}/features/wiki/api_repository.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'providers.g.dart';

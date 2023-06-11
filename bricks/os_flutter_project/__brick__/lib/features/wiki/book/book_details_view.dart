@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:os_flutter_project/data/the_one_api/the_one_api.dart';
-import 'package:os_flutter_project/features/wiki/providers.dart';
+import 'package:{{project_name}}/data/the_one_api/the_one_api.dart';
+import 'package:{{project_name}}/features/wiki/providers.dart';
 
 class BookDetailsView extends ConsumerWidget {
   const BookDetailsView({

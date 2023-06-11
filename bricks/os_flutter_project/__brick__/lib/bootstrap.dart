@@ -4,8 +4,8 @@ import 'dart:developer';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:os_flutter_project/exceptions/async_error_logger.dart';
-import 'package:os_flutter_project/exceptions/error_logger.dart';
+import 'package:{{project_name}}/exceptions/async_error_logger.dart';
+import 'package:{{project_name}}/exceptions/error_logger.dart';
 
 Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
   WidgetsFlutterBinding.ensureInitialized();

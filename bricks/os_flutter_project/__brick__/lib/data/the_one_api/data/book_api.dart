@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:os_flutter_project/data/the_one_api/data/ibook_api.dart';
-import 'package:os_flutter_project/data/the_one_api/the_one_api.dart';
+import 'package:{{project_name}}/data/the_one_api/data/ibook_api.dart';
+import 'package:{{project_name}}/data/the_one_api/the_one_api.dart';
 
 ///
 class BookApi extends IBookApi {

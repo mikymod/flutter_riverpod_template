@@ -1,4 +1,4 @@
-import 'package:os_flutter_project/data/the_one_api/models/movie.dart';
+import 'package:{{project_name}}/data/the_one_api/models/movie.dart';
 
 ///
 abstract class IMovieApi {
