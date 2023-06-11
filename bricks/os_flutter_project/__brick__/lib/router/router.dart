@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:go_router/go_router.dart';
-import 'package:os_flutter_project/data/the_one_api/the_one_api.dart';
-import 'package:os_flutter_project/features/wiki/book/book_details_view.dart';
-import 'package:os_flutter_project/features/wiki/character/character_details_view.dart';
-import 'package:os_flutter_project/features/wiki/movie/movie_details_view.dart';
-import 'package:os_flutter_project/features/wiki/wiki_screen.dart';
+import 'package:{{project_name}}/data/the_one_api/the_one_api.dart';
+import 'package:{{project_name}}/features/wiki/book/book_details_view.dart';
+import 'package:{{project_name}}/features/wiki/character/character_details_view.dart';
+import 'package:{{project_name}}/features/wiki/movie/movie_details_view.dart';
+import 'package:{{project_name}}/features/wiki/wiki_screen.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'router.g.dart';

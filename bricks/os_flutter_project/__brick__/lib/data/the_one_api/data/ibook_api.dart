@@ -1,4 +1,4 @@
-import 'package:os_flutter_project/data/the_one_api/models/book.dart';
+import 'package:{{project_name}}/data/the_one_api/models/book.dart';
 
 ///
 abstract class IBookApi {

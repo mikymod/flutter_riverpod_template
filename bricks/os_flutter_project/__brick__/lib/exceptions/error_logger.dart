@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:os_flutter_project/exceptions/app_exception.dart';
+import 'package:{{project_name}}/exceptions/app_exception.dart';
 
 class ErrorLogger {
   void logError(Object error, StackTrace? stackTrace) {

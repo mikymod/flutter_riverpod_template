@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:os_flutter_project/features/wiki/book/book_list_view.dart';
-import 'package:os_flutter_project/features/wiki/character/character_list_view.dart';
-import 'package:os_flutter_project/features/wiki/movie/movie_list_view.dart';
+import 'package:{{project_name}}/features/wiki/book/book_list_view.dart';
+import 'package:{{project_name}}/features/wiki/character/character_list_view.dart';
+import 'package:{{project_name}}/features/wiki/movie/movie_list_view.dart';
 
 enum PageTabs { books, movies, characters }
 

@@ -1,4 +1,4 @@
-# os_flutter_project
+# {{project_name}}
 
 A Flutter starter project generated with [![Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason) and inspired by [VeryGoodCore](https://github.com/VeryGoodOpenSource/very_good_core)
 

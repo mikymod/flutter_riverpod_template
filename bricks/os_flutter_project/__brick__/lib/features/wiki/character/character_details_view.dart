@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:os_flutter_project/data/the_one_api/the_one_api.dart';
+import 'package:{{project_name}}/data/the_one_api/the_one_api.dart';
 
 class CharacterDetailsView extends StatelessWidget {
   const CharacterDetailsView({
