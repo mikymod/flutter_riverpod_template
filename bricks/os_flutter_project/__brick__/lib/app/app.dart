@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:{{project_name}}/l10n/l10n.dart';
-import 'package:{{project_name}}/router/router.dart';
+import 'package:os_flutter_project/l10n/l10n.dart';
+import 'package:os_flutter_project/router/router.dart';
 
 class App extends ConsumerWidget {
   const App({super.key});
