@@ -1,9 +1,0 @@
-export 'data/ibook_api.dart';
-export 'data/icharacter_api.dart';
-export 'data/imovie_api.dart';
-export 'data/book_api.dart';
-export 'data/character_api.dart';
-export 'data/movie_api.dart';
-export 'models/book.dart';
-export 'models/character.dart';
-export 'models/movie.dart';

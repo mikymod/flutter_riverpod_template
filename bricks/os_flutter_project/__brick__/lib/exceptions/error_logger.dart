@@ -1,6 +1,13 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:{{project_name}}/exceptions/app_exception.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+part 'error_logger.g.dart';
+
+@riverpod
+ErrorLogger errorLogger(ErrorLoggerRef ref) {
+  return ErrorLogger();
+}
 
 class ErrorLogger {
   void logError(Object error, StackTrace? stackTrace) {
@@ -13,7 +20,3 @@ class ErrorLogger {
     debugPrint('$exception');
   }
 }
-
-final errorLoggerProvider = Provider<ErrorLogger>((ref) {
-  return ErrorLogger();
-});
