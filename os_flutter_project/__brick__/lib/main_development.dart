@@ -1,4 +1,4 @@
-import 'package:{{project_name}}/app/app.dart';
+import 'package:{{project_name}}/app.dart';
 import 'package:{{project_name}}/bootstrap.dart';
 
 void main() {
